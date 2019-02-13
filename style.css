@@ -1,5 +1,5 @@
 body{
-  background-color: #afeeee;
+  background-color: #eee;
 }
 
 .container{
@@ -16,7 +16,7 @@ body{
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   text-align: center;
-  position:relative;
+  position:absolute;
 }
 
 #temp, #humidity-div {
@@ -54,7 +54,7 @@ body{
 #main{
   width: 100%;
   height: 100%;
-  position: relative;
+  position: absolute;
 }
 
 .city-icon {
