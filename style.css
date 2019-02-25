@@ -1,0 +1,104 @@
+/*https://github.com/craigprotzel/weather-world - tutorial followed*/ 
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', Verdana, Arial, san-serif;
+	font-size: 24px;
+	font-color: rgb(145, 116, 111);
+}
+
+.top{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: rgb(252, 237, 238);
+	height: 250px;
+}
+
+.main{
+	margin-top: 250px;
+	border-style: solid;
+	border-color: rgb(145, 116, 111);
+	border-width: 0 0 2px auto;
+}
+
+#instructions{
+	font-size: 12px;
+}
+
+#mainTitle{
+	width: 100%;
+	margin: 20px 0 5px;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+
+.searchContainer{
+	width: 400px;
+	margin: 15px auto;
+}
+
+input{
+	width: 70%;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+button{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	width: 20%;
+/*	height: 30px;*/
+	margin-top: 10px;
+}
+
+#weatherResults{
+	width: 100%;
+}
+.setBorder{
+	border-style: solid;
+	border-color: rgb(145, 116, 111);
+	border-width: 2px 0 1px; 
+}
+.weatherCity{
+	text-align: center;
+	width: 100%;	
+	padding: 20px 10 2px;
+}
+.weatherData{
+	font-size: 20px;
+	text-align: center;
+	width: 100%;
+	padding: 2px 0 20px;
+}
+#content{
+	font-size: 25px;
+	font-family: Courier New;
+	font-style: italic;
+	text-align: center;
+	width: 100%;
+
+}
+
+/*Background Colors*/
+.red{
+	background-color: rgb(232, 88, 88);
+}
+.orange{
+	background-color: rgb(242, 125, 16)
+}
+.yellow{
+	background-color: rgb(245,210,0);
+}
+.green{
+	background-color: rgb(120,225,100);
+}
+.blue{
+	background-color: rgb(95,190,230);
+}
+.gray{
+	background-color: rgb(185,185,185);
+}
