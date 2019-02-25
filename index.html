@@ -1,0 +1,32 @@
+<!-- https://github.com/craigprotzel/weather-world -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width">
+		<title>weather bot</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+	</head>
+	<body>
+		<div class="top">
+			<div id="mainTitle">hey siri, what's the weather like?<br><small><i>a poetic-temperature bot</i></small></div>
+			<div id="instructions"><center><a href="https://www.timeanddate.com/weather/?sort=6" target="_blank">here's a helpful list of cities organized by temperature (temps may differ due to forecast differences)</a> // <a href="" target="_blank">more info about bot</a> // <a href="https://humanitygoescoding.postach.io/post/creative-coding-response-weather-bot" target="_blank">blog post</a> </center></div>
+			<div class='searchContainer'>
+				<input id="query" type="text" placeholder='ex: Providence, US'></input>
+				<button id="search">GO</button>
+			</div>
+		</div>
+		<div class="main">
+			<div id="weatherResults"></div>
+			<div id="content"></div> 
+		</div>
+		<script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+		<script src="grammar.js"></script>
+		<!-- note to self, the above should be placed BEFORE script so that things run well -->
+		<script src="script.js"></script>
+		<script src="tracery.js"></script>
+	</body>
+</html>
+
+ 
